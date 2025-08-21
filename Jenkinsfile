@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        // Add NodeJS in Jenkins Global Tools with this exact name "NodeJS"
+        // TT Add NodeJS in Jenkins Global Tools with this exact name "NodeJS"
         nodejs "NodeJS"
     }
 
