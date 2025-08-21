@@ -46,7 +46,7 @@ pipeline {
             steps {
                 echo "🚀 Deploy step (local testing only)"
                 // Example: run your app locally
-                // Adjust this if your app uses nodemon/pm2/etc...
+                // Adjust this if your app uses nodemon/pm2/etc..
                 sh 'npm start &'
             }
         }
